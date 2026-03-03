@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1a1a2e;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background: linear-gradient(135deg, #cc0000 0%, #8b0000 100%);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.university-badge {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.course-code {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.university {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.project-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project-subtitle {
+  font-size: 1.4rem;
+  opacity: 0.9;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.group-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.group-badge {
+  background: white;
+  color: #cc0000;
+  padding: 8px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.professor {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.section {
+  padding: 80px 20px;
+}
+
+.section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #1a1a2e;
+  position: relative;
+}
+
+.section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #cc0000;
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+.team-section {
+  background: #f8f9fa;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.team-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px 12px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #cc0000 0%, #8b0000 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.team-card h3 {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  color: #1a1a2e;
+}
+
+.role {
+  display: inline-block;
+  background: #fff0f0;
+  color: #cc0000;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 0.75rem;
+  color: #666;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.email {
+  font-size: 0.7rem;
+  color: #cc0000;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  word-break: break-all;
+}
+
+.email:hover {
+  opacity: 0.7;
+}
+
+/* Schedule Section */
+.schedule-section {
+  background: white;
+}
+
+.schedule-table {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.schedule-header {
+  display: grid;
+  grid-template-columns: 120px 160px 200px 1fr;
+  background: linear-gradient(135deg, #cc0000 0%, #8b0000 100%);
+  color: white;
+  padding: 15px 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.schedule-row {
+  display: grid;
+  grid-template-columns: 120px 160px 200px 1fr;
+  padding: 18px 20px;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.schedule-row:last-child {
+  border-bottom: none;
+}
+
+.schedule-row:hover {
+  background: #fafafa;
+}
+
+.schedule-day {
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.schedule-time {
+  color: #555;
+}
+
+.schedule-location {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.schedule-agenda {
+  color: #777;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* Footer */
+.footer {
+  background: #1a1a2e;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.footer p:last-child {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .schedule-header,
+  .schedule-row {
+    grid-template-columns: 100px 140px 180px 1fr;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .project-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .section {
+    padding: 50px 15px;
+  }
+
+  .section h2 {
+    font-size: 1.6rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .schedule-header,
+  .schedule-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .schedule-header {
+    display: none;
+  }
+  
+  .schedule-row {
+    padding: 20px;
+    border-left: 4px solid #cc0000;
+    margin-bottom: 10px;
+    background: #fafafa;
+  }
+  
+  .schedule-day::before {
+    content: 'Day: ';
+    color: #888;
+  }
+  
+  .schedule-time::before {
+    content: 'Time: ';
+    color: #888;
+  }
+  
+  .schedule-location::before {
+    content: 'Location: ';
+    color: #888;
+  }
+  
+  .schedule-agenda::before {
+    content: 'Agenda: ';
+    color: #888;
+  }
+}
