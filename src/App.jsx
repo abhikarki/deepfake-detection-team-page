@@ -31,14 +31,14 @@ function App() {
 
   const pastMeetings = [
     { date: "01/30/2026    3:00  PM - 4:00 PM", title: "Team Introduction and Project Discussion", summary: "Brainstormed deepfake detection topic, discussed scope and feasibility" },
-    { date: "02/03/2026", title: "Literature Review and Research", summary: "studied existing deepfake detection methods, reviewd FaceForencis++ dataset and ML models" },
-    { date: "02/06/2026", title: "Existing Prblems and Requirements Planning", summary: "Discussed existing limitations, documented functional and non functional requirements and scope for the system" },
-    { date: "02/09/2026", title: "Presentation Preparation + Research findings", summary: "Planned the structure of presentation and content to include and further discussed the technical implementation" },
-    { date: "02/12/2026", title: "System Architecture Design", summary: "Finalized the pipeline and created rough draft for the modules and architecture diagram" },
-    { date: "02/17/2026", title: "Slides and Technical Architecture Discussion", summary: "Worked on slides and assigned slides to each member" },
-    { date: "02/19/2026", title: "Final Edits and Presentation Practice", summary: "Final Edits to Slides and Presentation Practice"},
-    { date: "02/25/2026", title: "Report Writing Initiation", summary: "Discussed the structure of the Report and formatting" },
-    { date: "02/28/2026", title: "Final Edits to Report and submission files", summary: "Final edits to report and all files to submit" },
+    { date: "02/03/2026    2:00  PM - 3:00 PM", title: "Literature Review and Research", summary: "studied existing deepfake detection methods, reviewd FaceForencis++ dataset and ML models" },
+    { date: "02/06/2026    11:00 AM - 12:00 PM", title: "Existing Prblems and Requirements Planning", summary: "Discussed existing limitations, documented functional and non functional requirements and scope for the system" },
+    { date: "02/09/2026    3:00  PM - 4:00 PM", title: "Presentation Preparation + Research findings", summary: "Planned the structure of presentation and content to include and further discussed the technical implementation" },
+    { date: "02/12/2026    4:00  PM - 5:00 PM", title: "System Architecture Design", summary: "Finalized the pipeline and created rough draft for the modules and architecture diagram" },
+    { date: "02/17/2026    5:00  PM - 6:00 PM", title: "Slides and Technical Architecture Discussion", summary: "Worked on slides and assigned slides to each member" },
+    { date: "02/19/2026    4:00  PM - 5:00 PM", title: "Final Edits and Presentation Practice", summary: "Final Edits to Slides and Presentation Practice"},
+    { date: "02/25/2026    11:00 AM - 12:00 PM", title: "Report Writing Initiation", summary: "Discussed the structure of the Report and formatting" },
+    { date: "02/28/2026    2:00  PM - 3:00 PM", title: "Final Edits to Report and submission files", summary: "Final edits to report and all files to submit" },
   ];
 
   const upcomingMeetings = [
