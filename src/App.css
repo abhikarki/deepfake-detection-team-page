@@ -187,67 +187,107 @@
   opacity: 0.7;
 }
 
-/* Schedule Section */
-.schedule-section {
+/* Activities Section */
+.activities-section {
   background: white;
 }
 
-.schedule-table {
-  max-width: 1000px;
+.activities-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1200px;
   margin: 0 auto;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
 }
 
-.schedule-header {
-  display: grid;
-  grid-template-columns: 120px 160px 200px 1fr;
-  background: linear-gradient(135deg, #cc0000 0%, #8b0000 100%);
-  color: white;
-  padding: 15px 20px;
-  font-weight: 600;
+.activities-column h2 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  color: #1a1a2e;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #cc0000;
+}
+
+.past-activities h2 {
+  border-bottom-color: #666;
+}
+
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.activity-card {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 18px;
+  border-left: 4px solid #cc0000;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.activity-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card.past {
+  border-left-color: #666;
+  opacity: 0.85;
+}
+
+.activity-card.upcoming {
+  border-left-color: #cc0000;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.activity-date {
+  font-weight: 700;
+  color: #cc0000;
   font-size: 0.9rem;
+  margin-bottom: 6px;
 }
 
-.schedule-row {
-  display: grid;
-  grid-template-columns: 120px 160px 200px 1fr;
-  padding: 18px 20px;
-  border-bottom: 1px solid #eee;
-  align-items: center;
-  transition: background 0.2s;
+.activity-card.past .activity-date {
+  color: #666;
 }
 
-.schedule-row:last-child {
-  border-bottom: none;
-}
-
-.schedule-row:hover {
-  background: #fafafa;
-}
-
-.schedule-day {
+.activity-title {
   font-weight: 600;
   color: #1a1a2e;
+  font-size: 1rem;
+  margin-bottom: 6px;
 }
 
-.schedule-time {
+.activity-time {
   color: #555;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
 }
 
-.schedule-location {
-  color: #666;
-  font-size: 0.9rem;
-}
-
-.schedule-agenda {
+.activity-location {
   color: #777;
   font-size: 0.85rem;
-  line-height: 1.4;
+  margin-bottom: 8px;
 }
 
-/* Footer */
+.activity-agenda,
+.activity-summary {
+  color: #555;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.empty-state {
+  color: #999;
+  font-style: italic;
+  padding: 30px;
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
 .footer {
   background: #1a1a2e;
   color: white;
@@ -273,10 +313,8 @@
     grid-template-columns: repeat(3, 1fr);
   }
   
-  .schedule-header,
-  .schedule-row {
-    grid-template-columns: 100px 140px 180px 1fr;
-    font-size: 0.85rem;
+  .activities-grid {
+    gap: 30px;
   }
 }
 
@@ -301,40 +339,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
   
-  .schedule-header,
-  .schedule-row {
+  .activities-grid {
     grid-template-columns: 1fr;
-    gap: 8px;
+    gap: 40px;
   }
   
-  .schedule-header {
-    display: none;
-  }
-  
-  .schedule-row {
-    padding: 20px;
-    border-left: 4px solid #cc0000;
-    margin-bottom: 10px;
-    background: #fafafa;
-  }
-  
-  .schedule-day::before {
-    content: 'Day: ';
-    color: #888;
-  }
-  
-  .schedule-time::before {
-    content: 'Time: ';
-    color: #888;
-  }
-  
-  .schedule-location::before {
-    content: 'Location: ';
-    color: #888;
-  }
-  
-  .schedule-agenda::before {
-    content: 'Agenda: ';
-    color: #888;
+  .activities-column h2 {
+    font-size: 1.3rem;
   }
 }
