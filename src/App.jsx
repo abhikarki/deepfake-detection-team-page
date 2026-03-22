@@ -39,12 +39,21 @@ function App() {
     { date: "02/19/2026    4:00  PM - 5:00 PM", title: "Final Edits and Presentation Practice", summary: "Final Edits to Slides and Presentation Practice"},
     { date: "02/25/2026    11:00 AM - 12:00 PM", title: "Report Writing Initiation", summary: "Discussed the structure of the Report and formatting" },
     { date: "02/28/2026    2:00  PM - 3:00 PM", title: "Final Edits to Report and submission files", summary: "Final edits to report and all files to submit" },
+    { date: "03/05/2026", time: "4:00 PM - 5:00 PM", location: "Online (Zoom)", agenda: "Discussion for latest models for feature extraction, data collection" },
+    { date: "03/07/2026", time: "2:00 PM - 3:00 PM", location: "Library Study Room", agenda: "Progress review, discussion on system entities, UML diagrams, and assign roles for report writing" },
+    { date: "03/10/2026", time: "10:00 AM - 11:00 AM", location: "Library Study Room", agenda: "Code and report review and discussion" },
+    { date: "03/12/2026", time: "10:00 AM - 11:00 AM", location: "Zoom", agenda: "UML Diagrams Discussion and plan to find datasets" },
+    { date: "03/14/2026", time: "2:00 PM - 3:00 PM", location: "Zoom", agenda: "Search for latest alternatives to EfficientNet and discuss on models and datasets" },
+    { date: "03/18/2026", time: "3:00 PM - 3:30 PM", location: "Zoom", agenda: "Short discussion on comptibilitly of Grad-CAM with our architecture" },
+    { date: "03/21/2026", time: "6:00 PM - 7:00 PM", location: "Zoom", agenda: "Draft Presentation Slides" },
+
   ];
 
   const upcomingMeetings = [
-    { date: "03/05/2026", time: "4:00 PM - 5:00 PM", location: "Online (Zoom)", agenda: "Discussion for latest models for feature extraction, data collection" },
-    { date: "03/07/2026", time: "2:00 PM - 3:00 PM", location: "Library Study Room", agenda: "Progress review, discussion on system entities, UML diagrams, and assign roles for report writing" },
-    { date: "03/10/2026", time: "10:00 AM - 11:00 AM", location: "Library Study Room", agenda: "Code and report review and discussion" }
+        { date: "03/22/2026", time: "11:00 AM - 1:00 PM", location: "Zoom", agenda: "Submit individual code to github and integrate and test the UI and logic as a user" },
+        { date: "03/23/2026", time: "4:00 PM - 5:00 PM", location: "Library", agenda: "Try running the inference, discuss further on the forensic report and details to include" },
+        { date: "03/24/2026", time: "2:00 PM - 3:00 PM", location: "Library", agenda: "Evaluate the output, accuracy and explainability details + Practice Presentation" },
+        { date: "03/25/2026", time: "2:00 PM - 4:00 PM", location: "Library", agenda: "Practice Presentation + discuss model's output, and benchmarks" },
   ];
 
   return (
