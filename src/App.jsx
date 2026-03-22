@@ -30,22 +30,23 @@ function App() {
   ];
 
   const pastMeetings = [
-    { date: "01/30/2026    3:00  PM - 4:00 PM", title: "Team Introduction and Project Discussion", summary: "Brainstormed deepfake detection topic, discussed scope and feasibility" },
-    { date: "02/03/2026    2:00  PM - 3:00 PM", title: "Literature Review and Research", summary: "studied existing deepfake detection methods, reviewd FaceForencis++ dataset and ML models" },
-    { date: "02/06/2026    11:00 AM - 12:00 PM", title: "Existing Prblems and Requirements Planning", summary: "Discussed existing limitations, documented functional and non functional requirements and scope for the system" },
-    { date: "02/09/2026    3:00  PM - 4:00 PM", title: "Presentation Preparation + Research findings", summary: "Planned the structure of presentation and content to include and further discussed the technical implementation" },
-    { date: "02/12/2026    4:00  PM - 5:00 PM", title: "System Architecture Design", summary: "Finalized the pipeline and created rough draft for the modules and architecture diagram" },
-    { date: "02/17/2026    5:00  PM - 6:00 PM", title: "Slides and Technical Architecture Discussion", summary: "Worked on slides and assigned slides to each member" },
-    { date: "02/19/2026    4:00  PM - 5:00 PM", title: "Final Edits and Presentation Practice", summary: "Final Edits to Slides and Presentation Practice"},
-    { date: "02/25/2026    11:00 AM - 12:00 PM", title: "Report Writing Initiation", summary: "Discussed the structure of the Report and formatting" },
-    { date: "02/28/2026    2:00  PM - 3:00 PM", title: "Final Edits to Report and submission files", summary: "Final edits to report and all files to submit" },
-    { date: "03/05/2026", time: "4:00 PM - 5:00 PM", location: "Online (Zoom)", agenda: "Discussion for latest models for feature extraction, data collection" },
-    { date: "03/07/2026", time: "2:00 PM - 3:00 PM", location: "Library Study Room", agenda: "Progress review, discussion on system entities, UML diagrams, and assign roles for report writing" },
-    { date: "03/10/2026", time: "10:00 AM - 11:00 AM", location: "Library Study Room", agenda: "Code and report review and discussion" },
-    { date: "03/12/2026", time: "10:00 AM - 11:00 AM", location: "Zoom", agenda: "UML Diagrams Discussion and plan to find datasets" },
-    { date: "03/14/2026", time: "2:00 PM - 3:00 PM", location: "Zoom", agenda: "Search for latest alternatives to EfficientNet and discuss on models and datasets" },
-    { date: "03/18/2026", time: "3:00 PM - 3:30 PM", location: "Zoom", agenda: "Short discussion on comptibilitly of Grad-CAM with our architecture" },
-    { date: "03/21/2026", time: "6:00 PM - 7:00 PM", location: "Zoom", agenda: "Draft Presentation Slides" },
+    { date: "03/21/2026    6:00 PM - 7:00 PM    Zoom", title: "Draft Presentation Slides", summary: "Draft Presentation Slides" },
+    { date: "03/18/2026    3:00 PM - 3:30 PM    Zoom", title: "Grad-CAM Compatibility Discussion", summary: "Short discussion on comptibilitly of Grad-CAM with our architecture" },
+    { date: "03/14/2026    2:00 PM - 3:00 PM    Zoom", title: "Model Alternatives & Dataset Discussion", summary: "Search for latest alternatives to EfficientNet and discuss on models and datasets" },
+    { date: "03/12/2026    10:00 AM - 11:00 AM  Zoom", title: "UML Diagrams & Data Collection Planning", summary: "UML Diagrams Discussion and plan to find datasets" },
+    { date: "03/10/2026    10:00 AM - 11:00 AM  Library Study Room", title: "Code & Report Review", summary: "Code and report review and discussion" },
+    { date: "03/07/2026    2:00 PM - 3:00 PM    Library Study Room", title: "Progress Review & System Entity Design", summary: "Progress review, discussion on system entities, UML diagrams, and assign roles for report writing" },
+    { date: "03/05/2026    4:00 PM - 5:00 PM    Zoom", title: "Model Selection & Data Collection Discussion", summary: "Discussion for latest models for feature extraction, data collection" },
+    { date: "02/28/2026    2:00 PM - 3:00 PM    Library Study Room", title: "Final Edits & Report Submission", summary: "Final edits to report and all files to submit" },
+    { date: "02/25/2026    11:00 AM - 12:00 PM   Library Study Room", title: "Report Writing Initiation", summary: "Discussed the structure of the Report and formatting" },
+    { date: "02/19/2026    4:00 PM - 5:00 PM    Library Study Room", title: "Final Edits & Presentation Practice", summary: "Final Edits to Slides and Presentation Practice" },
+    { date: "02/17/2026    5:00 PM - 6:00 PM    Library Study Room", title: "Slides & Technical Architecture Assignment", summary: "Worked on slides and assigned slides to each member" },
+    { date: "02/12/2026    4:00 PM - 5:00 PM     Library Study Room", title: "System Architecture & Pipeline Design", summary: "Finalized the pipeline and created rough draft for the modules and architecture diagram" },
+    { date: "02/09/2026    3:00 PM - 4:00 PM     Library Study Room", title: "Presentation Planning & Implementation Discussion", summary: "Planned the structure of presentation and content to include and further discussed the technical implementation" },
+    { date: "02/06/2026    11:00 AM - 12:00 PM    Zoom", title: "Existing Prblems and Requirements Planning", summary: "Discussed existing limitations, documented functional and non functional requirements and scope for the system" },
+    { date: "02/03/2026    2:00 PM - 3:00 PM     Library Study Room", title: "Literature Review & Dataset Evaluation", summary: "studied existing deepfake detection methods, reviewd FaceForencis++ dataset and ML models" },
+    { date: "01/30/2026    3:00 PM - 4:00 PM   Library Study Room", title: "Project Overview & Feasibility", summary: "Brainstormed deepfake detection topic, discussed scope and feasibility" },
+
 
   ];
 
