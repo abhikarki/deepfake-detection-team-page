@@ -30,6 +30,15 @@ function App() {
   ];
 
   const pastMeetings = [
+    { date: "03/30/2026    2:00 PM - 4:00 PM    Library", title: "Practice Presentation & Model Training Preparation", summary: "Practice presentation, final dataset review, and task division for model training with cloud resource planning" },
+    { date: "03/28/2026    2:00 PM - 3:00 PM    Library", title: "Practice Presentation & UML Diagram Review", summary: "Practice presentation and review of UML diagram modifications" },
+    { date: "03/26/2026    5:00 PM - 6:00 PM    Zoom", title: "Practice Presentation & Dataset Preparation", summary: "Practice presentation and discussion on dataset sources and preparation scripts" },
+    { date: "03/25/2026    2:00 PM - 4:00 PM    Library", title: "Practice Presentation & Model Output Review", summary: "Practice presentation and discussion on model output and performance benchmarks" },
+    { date: "03/24/2026    2:00 PM - 3:00 PM    Library", title: "Model Evaluation & Presentation Practice", summary: "Evaluate model output accuracy and explainability details with presentation practice" },
+    { date: "03/23/2026    4:00 PM - 5:00 PM    Library", title: "Inference Testing & Forensic Report", summary: "Run inference testing and discuss forensic report details and specifications" },
+
+    { date: "03/22/2026    11:00 AM - 1:00 PM    Zoom", title: "Code Integration & UI Testing", summary: "Submit individual code to GitHub and integrate and test UI with logic validation" },
+
     { date: "03/21/2026    6:00 PM - 7:00 PM    Zoom", title: "Draft Presentation Slides", summary: "Draft Presentation Slides" },
     { date: "03/18/2026    3:00 PM - 3:30 PM    Zoom", title: "Grad-CAM Compatibility Discussion", summary: "Short discussion on comptibilitly of Grad-CAM with our architecture" },
     { date: "03/14/2026    2:00 PM - 3:00 PM    Zoom", title: "Model Alternatives & Dataset Discussion", summary: "Search for latest alternatives to EfficientNet and discuss on models and datasets" },
@@ -51,11 +60,10 @@ function App() {
   ];
 
   const upcomingMeetings = [
-        { date: "03/22/2026", time: "11:00 AM - 1:00 PM", location: "Zoom", agenda: "Submit individual code to github and integrate and test the UI and logic as a user" },
-        { date: "03/23/2026", time: "4:00 PM - 5:00 PM", location: "Library", agenda: "Try running the inference, discuss further on the forensic report and details to include" },
-        { date: "03/24/2026", time: "2:00 PM - 3:00 PM", location: "Library", agenda: "Evaluate the output, accuracy and explainability details + Practice Presentation" },
-        { date: "03/25/2026", time: "2:00 PM - 4:00 PM", location: "Library", agenda: "Practice Presentation + discuss model's output, and benchmarks" },
-  ];
+        { date: "03/31/2026", time: "11:00 AM - 1:00 PM", location: "Zoom", agenda: "Review report and model training" },
+        { date: "04/02/2026", time: "2:00 PM - 3:00 PM", location: "Library", agenda: "Review report, model training and testing and discuss on benchmarks" },
+        { date: "04/03/2026", time: "5:00 PM - 6:00 PM", location: "Zoom", agenda: "Review report and model training and testing and discuss on benchmarks" },
+      ];
 
   return (
     <div className="app">
