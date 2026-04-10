@@ -29,7 +29,15 @@ function App() {
     }
   ];
 
+  
+
   const pastMeetings = [
+    { date: "04/09/2026    1:00 PM - 3:00 PM    Library", title: "Stage 2 Report Submission & Deadline", summary: "Reviewed and Submitted Stage 2 report, discussed cloud infrastructure for inference and deployment" },
+    { date: "04/07/2026    2:00 PM - 4:00 PM    Zoom", title: "Testing Strategy & Evaluation Metrics Planning", summary: "Finalized evaluation metrics (Accuracy, Precision, FNR, FPR), and reviewed test pipeline for temporal vs frame-level baseline comparison" },
+    { date: "04/05/2026    3:00 PM - 5:00 PM    Library", title: "ResNeXt-50 Feature Extraction & LSTM Configuration", summary: "Reviewed ResNeXt-50 pretrained model for feature extraction, configured 30-frame sliding window for LSTM temporal modeling" },
+    { date: "04/03/2026    5:00 PM - 6:00 PM    Zoom", title: "Review report and model training and testing and discuss on benchmarks", summary: "Review report and model training and testing and discuss on benchmarks" },
+    { date: "04/02/2026    2:00 PM - 3:00 PM    Library", title: "Review report, model training and testing and discuss on benchmarks", summary: "Review report, model training and testing and discuss on benchmarks" },
+    { date: "03/31/2026    11:00 AM - 1:00 PM    Zoom", title: "Review report and model training", summary: "Review report and model training" },
     { date: "03/30/2026    2:00 PM - 4:00 PM    Library", title: "Practice Presentation & Model Training Preparation", summary: "Practice presentation, final dataset review, and task division for model training with cloud resource planning" },
     { date: "03/28/2026    2:00 PM - 3:00 PM    Library", title: "Practice Presentation & UML Diagram Review", summary: "Practice presentation and review of UML diagram modifications" },
     { date: "03/26/2026    5:00 PM - 6:00 PM    Zoom", title: "Practice Presentation & Dataset Preparation", summary: "Practice presentation and discussion on dataset sources and preparation scripts" },
@@ -60,9 +68,10 @@ function App() {
   ];
 
   const upcomingMeetings = [
-        { date: "03/31/2026", time: "11:00 AM - 1:00 PM", location: "Zoom", agenda: "Review report and model training" },
-        { date: "04/02/2026", time: "2:00 PM - 3:00 PM", location: "Library", agenda: "Review report, model training and testing and discuss on benchmarks" },
-        { date: "04/03/2026", time: "5:00 PM - 6:00 PM", location: "Zoom", agenda: "Review report and model training and testing and discuss on benchmarks" },
+        { date: "04/12/2026", time: "10:00 AM - 12:00 PM", location: "Library", agenda: "Model Training Phase Start, Review the data preparation pipeline and start the data preparation" },
+        { date: "04/14/2026", time: "2:00 PM - 3:30 PM", location: "Zoom", agenda: "Review the data preparation, review the code for training the LSTM, also discuss alternative models and popular ensemble approaches" },
+        { date: "04/15/2026", time: "3:00 PM - 5:00 PM", location: "Library", agenda: "Testing Phase Initiation & Evaluation Metrics, also prepare for comparison of temporal LSTM vs frame-level baseline models" },
+        { date: "04/17/2026", time: "11:00 AM - 1:00 PM", location: "Zoom", agenda: "Review potential alternative approaches & ensemble Methods" },
       ];
 
   return (
