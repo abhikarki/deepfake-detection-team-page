@@ -32,6 +32,18 @@ function App() {
   
 
   const pastMeetings = [
+    { date: "05/03/2026    2:00 PM - 4:00 PM    Library", title: "Report Finalization & Submission Preparation", summary: "Final review of Stage 3 report formatting, verified all diagrams and citations, prepared submission package including abstract, methodology, results, and conclusions" },
+    { date: "05/01/2026    3:00 PM - 5:00 PM    Zoom", title: "Final Report Review & Proofreading", summary: "proofreading of Stage 3 report, reviewed temporal CNN results and model comparisons, finalized Implementation details section of the report" },
+    { date: "04/29/2026    1:00 PM - 3:00 PM    Library", title: "Stage 3 Report - Refinement & Graphics", summary: "Enhanced report with performance graphs and confusion matrices. Refined sections on explainability module and PDF report generation" },
+    { date: "04/27/2026    2:00 PM - 4:00 PM    Zoom", title: "Stage 3 Report Writing - Content Development", summary: "Began writing Stage 3 comprehensive report covering temporal CNN architecture, ResNeXt-50 integration, CNN configurations, and system evaluation metrics" },
+    { date: "04/25/2026    11:00 AM - 1:00 PM    Library", title: "Post-Presentation Review & Report Planning", summary: "Reviewed presentation feedback, discussed system improvements for final report, planned Stage 3 deliverables including explainability analysis and PDF report features" },
+    { date: "04/23/2026    4:00 PM - 5:00 PM    Library", title: "FINAL PRESENTATION - Deepfake Detection System", summary: "final presentation on temporal CNN-based deepfake detection system with explainability features, reviewed the deployment for further enhancements including renting of a cloud GPU" },
+    { date: "04/21/2026    2:00 PM - 4:00 PM    Library", title: "Final Presentation Rehearsal", summary: "Complete end-to-end presentation practice with timing, refined technical explanations, practiced answers to potential questions on model architecture and explainability" },
+    { date: "04/19/2026    3:00 PM - 5:00 PM    Zoom", title: "Presentation Slides Refinement & Practice", summary: "Enhanced slide content with model architecture diagrams, performance metrics visualizations, and forensic report samples. Practiced transitions demo and slides, created a fallback option by running backend on two separate colab notebooks and exposing port with ngrok tunneling" },
+    { date: "04/17/2026    11:00 AM - 1:00 PM    Library", title: "Presentation Slides Creation & Drafting", summary: "Collaborated on presentation structure: system overview, temporal CNN architecture, ResNeXt-50 feature extraction, CNN based temporal modeling, evaluation results, and explainability module" },
+    { date: "04/15/2026    2:00 PM - 4:00 PM    Library", title: "Model Evaluation & Baseline Comparison", summary: "Completed temporal CNN vs frame-level MLP baseline comparison, analyzed accuracy, precision, FNR, FPR metrics, verified performance gains from temporal aggregation approach" },
+    { date: "04/13/2026    3:00 PM - 5:00 PM    Zoom", title: "Temporal CNN Architecture Deep Dive", summary: "Reviewed CNN layer configurations for 5-frame temporal aggregation, validated ResNeXt-50 feature extraction pipeline, tested a possible gradient computation for Grad-CAM explainability" },
+    { date: "04/11/2026    1:00 PM - 3:00 PM    Library", title: "Model Training Progress Review", summary: "Monitored temporal CNN training progress on FaceForensics++ dataset, reviewed loss curves and validation metrics, validated inference pipeline for video preprocessing and frame extraction" },
     { date: "04/09/2026    1:00 PM - 3:00 PM    Library", title: "Stage 2 Report Submission & Deadline", summary: "Reviewed and Submitted Stage 2 report, discussed cloud infrastructure for inference and deployment" },
     { date: "04/07/2026    2:00 PM - 4:00 PM    Zoom", title: "Testing Strategy & Evaluation Metrics Planning", summary: "Finalized evaluation metrics (Accuracy, Precision, FNR, FPR), and reviewed test pipeline for temporal vs frame-level baseline comparison" },
     { date: "04/05/2026    3:00 PM - 5:00 PM    Library", title: "ResNeXt-50 Feature Extraction & LSTM Configuration", summary: "Reviewed ResNeXt-50 pretrained model for feature extraction, configured 30-frame sliding window for LSTM temporal modeling" },
@@ -68,11 +80,9 @@ function App() {
   ];
 
   const upcomingMeetings = [
-        { date: "04/12/2026", time: "10:00 AM - 12:00 PM", location: "Library", agenda: "Model Training Phase Start, Review the data preparation pipeline and start the data preparation" },
-        { date: "04/14/2026", time: "2:00 PM - 3:30 PM", location: "Zoom", agenda: "Review the data preparation, review the code for training the LSTM, also discuss alternative models and popular ensemble approaches" },
-        { date: "04/15/2026", time: "3:00 PM - 5:00 PM", location: "Library", agenda: "Testing Phase Initiation & Evaluation Metrics, also prepare for comparison of temporal LSTM vs frame-level baseline models" },
-        { date: "04/17/2026", time: "11:00 AM - 1:00 PM", location: "Zoom", agenda: "Review potential alternative approaches & ensemble Methods" },
-      ];
+    { date: "05/07/2026", time: "10:00 AM - 12:00 PM", location: "Library", agenda: "Project Review - Discuss feedback, analyze Stage 3 report, and evaluate overall project outcomes and system performance" },
+    { date: "05/09/2026", time: "2:00 PM - 4:00 PM", location: "Zoom", agenda: "Deployment & Future Work Planning - Discuss production deployment strategies for the temporal CNN model, explore potential improvements, and plan for future research directions in deepfake detection" },
+  ];
 
   return (
     <div className="app">
